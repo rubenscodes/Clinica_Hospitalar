@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Vida & Saúde | Excelência em Medicina Integrada</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #333;
+        }
+        .hero-section {
+            background: linear-gradient(rgba(13, 110, 253, 0.85), rgba(13, 110, 253, 0.7)), url('https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1920&q=80') no-repeat center center;
+            background-size: cover;
+            color: white;
+            padding: 100px 0;
+        }
+        .service-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: none;
+            border-radius: 12px;
+        }
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        .doctor-img {
+            height: 250px;
+            object-fit: cover;
+        }
+        footer {
+            background-color: #212529;
+            color: #adb5bd;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cabeçalho / Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-primary fs-4" href="#">
+                <i class="bi bi-heart-pulse-fill text-danger me-2"></i>Vida & Saúde
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav align-items-center gap-3">
+                    <li class="nav-item"><a class="nav-link active" href="#">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#especialidades">Especialidades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#corpo-clinico">Corpo Clínico</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                    <li class="nav-item">
+                        <a href="#agendamento" class="btn btn-primary rounded-pill px-4">Marcar Consulta</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Seção Hero / Destaque -->
+    <header class="hero-section text-center text-lg-start">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7 mb-5 mb-lg-0">
+                    <span class="badge bg-light text-primary fw-semibold px-3 py-2 rounded-pill mb-3">Atendimento Humanizado 24h</span>
+                    <h1 class="display-4 fw-bold mb-3">Cuidando da sua saúde com excelência e tecnologia</h1>
+                    <p class="lead mb-4">Contamos com uma infraestrutura moderna, corpo clínico altamente qualificado e pronto atendimento para você e sua família.</p>
+                    <a href="#agendamento" class="btn btn-light text-primary btn-lg fw-semibold px-4 me-2 shadow-sm">Agendar Consulta</a>
+                    <a href="#especialidades" class="btn btn-outline-light btn-lg px-4">Nossas Especialidades</a>
+                </div>
+                <div class="col-lg-5">
+                    <div class="card shadow-lg border-0 rounded-4 p-4 bg-white text-dark">
+                        <h3 class="h4 fw-bold mb-3 text-primary"><i class="bi bi-clock-history me-2"></i>Horário de Atendimento</h3>
+                        <ul class="list-unstyled mb-4">
+                            <li class="d-flex justify-content-between py-2 border-bottom"><span>Pronto Atendimento:</span> <strong class="text-success">24 Horas</strong></li>
+                            <li class="d-flex justify-content-between py-2 border-bottom"><span>Consultórios:</span> <strong>Seg - Sex: 07h às 19h</strong></li>
+                            <li class="d-flex justify-content-between py-2"><span>Exames & Imagem:</span> <strong>Seg - Sáb: 06h às 18h</strong></li>
+                        </ul>
+                        <div class="d-grid">
+                            <a href="tel:08001234567" class="btn btn-outline-primary fw-semibold"><i class="bi bi-telephone-fill me-2"></i> Emergência: (91) 4002-8922</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Especialidades -->
+    <section id="especialidades" class="py-5 bg-light">
+        <div class="container py-4">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold text-primary">Especialidades Médicas</h2>
+                <p class="text-muted">Oferecemos suporte completo em diversas áreas da saúde</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card service-card p-4 bg-white h-100">
+                        <div class="icon-box text-primary fs-1 mb-3"><i class="bi bi-heart-pulse"></i></div>
+                        <h3 class="h5 fw-bold">Cardiologia</h3>
+                        <p class="text-muted small">Prevenção, diagnóstico e tratamento de doenças do coração e do sistema circulatório com exames de eletro e ecocardiograma.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card service-card p-4 bg-white h-100">
+                        <div class="icon-box text-primary fs-1 mb-3"><i class="bi bi-shield-plus"></i></div>
+                        <h3 class="h5 fw-bold">Pediatria</h3>
+                        <p class="text-muted small">Acompanhamento completo do crescimento, imunização e saúde integral de recém-nascidos, crianças e adolescentes.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card service-card p-4 bg-white h-100">
+                        <div class="icon-box text-primary fs-1 mb-3"><i class="bi bi-activity"></i></div>
+                        <h3 class="h5 fw-bold">Ortopedia & Traumatologia</h3>
+                        <p class="text-muted small">Especialistas em lesões do sistema esquelético, fraturas, dores articulares e reabilitação física.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card service-card p-4 bg-white h-100">
+                        <div class="icon-box text-primary fs-1 mb-3"><i class="bi bi-eyedropper"></i></div>
+                        <h3 class="h5 fw-bold">Análises Clínicas</h3>
+                        <p class="text-muted small">Laboratório completo integrado à clínica para resultados rápidos, seguros e precisos de exames de sangue e rotina.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card service-card p-4 bg-white h-100">
+                        <div class="icon-box text-primary fs-1 mb-3"><i class="bi bi-lungs"></i></div>
+                        <h3 class="h5 fw-bold">Pneumologia</h3>
+                        <p class="text-muted small">Tratamento especializado para doenças respiratórias, asma, bronquite, DPOC e exames de função pulmonar.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card service-card p-4 bg-white h-100">
+                        <div class="icon-box text-primary fs-1 mb-3"><i class="bi bi-hospital"></i></div>
+                        <h3 class="h5 fw-bold">Diagnóstico por Imagem</h3>
+                        <p class="text-muted small">Tecnologia de ponta em ultrassonografia, raio-X digital e tomografia computadorizada com laudos ágeis.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Corpo Clínico -->
+    <section id="corpo-clinico" class="py-5">
+        <div class="container py-4">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold text-primary">Nosso Corpo Clínico</h2>
+                <p class="text-muted">Profissionais renomados e dedicados ao seu bem-estar</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card border-0 shadow-sm rounded-4 overflow-hidden h-100">
+                        <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=600&q=80" class="card-img-top doctor-img" alt="Dra. Juliana Mendes">
+                        <div class="card-body text-center p-4">
+                            <h3 class="h5 fw-bold mb-1">Dra. Juliana Mendes</h3>
+                            <p class="text-primary small mb-2">Cardiologista • CRM-PA 12345</p>
+                            <p class="text-muted small">Formada pela USP com residência no InCor, especialista em cardiologia preventiva.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-0 shadow-sm rounded-4 overflow-hidden h-100">
+                        <img src="Carlos.jpg" class="card-img-top doctor-img" alt="Dr. Carlos Eduardo">
+                        <div class="card-body text-center p-4">
+                            <h3 class="h5 fw-bold mb-1">Dr. Carlos Eduardo</h3>
+                            <p class="text-primary small mb-2">Ortopedista • CRM-PA 98765</p>
+                            <p class="text-muted small">Especialista em cirurgia do joelho e medicina esportiva pela UNIFESP.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-0 shadow-sm rounded-4 overflow-hidden h-100">
+                        <img src="Marina.jpg" class="card-img-top doctor-img" alt="Dra. Mariana Souza">
+                        <div class="card-body text-center p-4">
+                            <h3 class="h5 fw-bold mb-1">Dra. Mariana Souza</h3>
+                            <p class="text-primary small mb-2">Pediatra • CRM-PA 54321</p>
+                            <p class="text-muted small">Dedicação ao desenvolvimento infantil, puericultura e neonatologia.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulário de Agendamento -->
+    <section id="agendamento" class="py-5 bg-primary text-white">
+        <div class="container py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="card border-0 shadow-lg rounded-4 p-4 p-md-5 bg-white text-dark">
+                        <div class="text-center mb-4">
+                            <h2 class="fw-bold text-primary">Agende sua Consulta</h2>
+                            <p class="text-muted small">Preencha o formulário abaixo e nossa equipe entrará em contato para confirmar o horário.</p>
+                        </div>
+                        <form action="/agendamentos" method="POST">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label for="nome" class="form-label fw-semibold">Nome Completo</label>
+                                    <input type="text" class="form-control" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="telefone" class="form-label fw-semibold">Telefone / WhatsApp</label>
+                                    <input type="tel" class="form-control" id="telefone" name="telefone" placeholder="(91) 99999-9999" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="email" class="form-label fw-semibold">E-mail</label>
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="seu@email.com" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="especialidade" class="form-label fw-semibold">Especialidade Desejada</label>
+                                    <select class="form-select" id="especialidade" name="especialidade" required>
+                                        <option value="" selected disabled>Selecione a especialidade</option>
+                                        <option value="cardiologia">Cardiologia</option>
+                                        <option value="pediatria">Pediatria</option>
+                                        <option value="ortopedia">Ortopedia & Traumatologia</option>
+                                        <option value="pneumologia">Pneumologia</option>
+                                        <option value="exames">Laboratório / Exames</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="data" class="form-label fw-semibold">Data Preferencial</label>
+                                    <input type="date" class="form-control" id="data" name="data" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="convenio" class="form-label fw-semibold">Convênio / Particular</label>
+                                    <select class="form-select" id="convenio" name="convenio" required>
+                                        <option value="particular">Particular</option>
+                                        <option value="unimed">Unimed</option>
+                                        <option value="bradesco">Bradesco Saúde</option>
+                                        <option value="amil">Amil</option>
+                                        <option value="sulamerica">SulAmérica</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <label for="observacoes" class="form-label fw-semibold">Observações (Opcional)</label>
+                                    <textarea class="form-control" id="observacoes" name="observacoes" rows="3" placeholder="Informe sintomas ou preferências de horário..."></textarea>
+                                </div>
+                                <div class="col-12 text-center mt-4">
+                                    <button type="submit" class="btn btn-primary btn-lg w-100 fw-semibold">Solicitar Agendamento</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé / Contato -->
+    <footer id="contato" class="py-5">
+        <div class="container">
+            <div class="row g-4 mb-4">
+                <div class="col-lg-4">
+                    <h5 class="text-white fw-bold mb-3"><i class="bi bi-heart-pulse-fill text-danger me-2"></i>Clínica Vida & Saúde</h5>
+                    <p class="small text-muted">Comprometidos em oferecer atendimento médico humanizado, integrando alta tecnologia, segurança e diagnósticos precisos para toda a comunidade.</p>
+                </div>
+                <div class="col-lg-4">
+                    <h5 class="text-white fw-bold mb-3">Contato & Localização</h5>
+                    <p class="small mb-2"><i class="bi bi-geo-alt-fill text-primary me-2"></i> Av. Mário Covas, 1500 - Ananindeua / PA</p>
+                    <p class="small mb-2"><i class="bi bi-telephone-fill text-primary me-2"></i> (91) 3221-5000 / 4002-8922</p>
+                    <p class="small mb-0"><i class="bi bi-envelope-fill text-primary me-2"></i> contato@clinicavidasaude.med.br</p>
+                </div>
+                <div class="col-lg-4">
+                    <h5 class="text-white fw-bold mb-3">Redes Sociais</h5>
+                    <p class="small text-muted">Acompanhe nossas dicas de saúde e novidades nas redes sociais.</p>
+                    <div class="d-flex gap-3 fs-5">
+                        <a href="#" class="text-light"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-light"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="text-light"><i class="bi bi-linkedin"></i></a>
+                        <a href="#" class="text-light"><i class="bi bi-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="border-secondary">
+            <div class="text-center small text-muted pt-3">
+                &copy; 2026 Clínica Vida & Saúde. Todos os direitos reservados.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
