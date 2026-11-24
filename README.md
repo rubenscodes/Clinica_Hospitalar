@@ -2,6 +2,10 @@
 
 ### Website institucional com sistema de agendamento de consultas
 
+![Status](https://img.shields.io/badge/Status-Em%20desenvolvimento-yellow)
+![Projeto](https://img.shields.io/badge/Projeto-Acadêmico-blue)
+![Semestre](https://img.shields.io/badge/ADS-3º%20Semestre-purple)
+
 ---
 
 ##  Sobre o projeto
@@ -12,7 +16,7 @@ A aplicação conta com um formulário de agendamento de consultas, permitindo q
 
 O projeto foi desenvolvido durante o **3º semestre do curso de Análise e Desenvolvimento de Sistemas (ADS)**, como parte do processo de aprendizagem e aplicação prática dos conhecimentos adquiridos na graduação.
 
-## Funcionalidades
+##  Funcionalidades
 
 - Website institucional de uma clínica hospitalar.
 - Formulário para agendamento de consultas.
@@ -20,7 +24,7 @@ O projeto foi desenvolvido durante o **3º semestre do curso de Análise e Desen
 - Integração com banco de dados para armazenamento das informações.
 - Comunicação entre o frontend e o backend.
 
-## Tecnologias e ferramentas utilizadas
+##  Tecnologias e ferramentas utilizadas
 
 | Tecnologia | Aplicação no projeto |
 |---|---|
@@ -30,7 +34,7 @@ O projeto foi desenvolvido durante o **3º semestre do curso de Análise e Desen
 | Git | Controle de versão do código-fonte. |
 | GitHub | Hospedagem e gerenciamento do repositório. |
 
-## Banco de dados
+##  Banco de dados
 
 O projeto utiliza o **SQLite** para armazenamento das informações relacionadas ao formulário de agendamento de consultas.
 
@@ -47,7 +51,7 @@ Projeto desenvolvido no **3º semestre de Análise e Desenvolvimento de Sistemas
 - Banco de dados;
 - Versionamento de código com Git e GitHub.
 
-## Status do projeto
+##  Status do projeto
 
 Em desenvolvimento. Novas funcionalidades, melhorias na interface e aprimoramentos na integração entre frontend, backend e banco de dados poderão ser implementados durante a evolução do projeto.
 
