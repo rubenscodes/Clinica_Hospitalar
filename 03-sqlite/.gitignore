@@ -1,0 +1,18 @@
+
+# Dependências do Node.js
+03-sqlite/node_modules/
+
+# Bancos de dados locais
+03-sqlite/clinica.db
+03-sqlite/escola.db
+
+# Arquivos de configuração e senhas
+.env
+.env.*
+!.env.example
+
+# Arquivos de log
+*.log
+
+# Arquivos temporários do Windows
+Thumbs.db
