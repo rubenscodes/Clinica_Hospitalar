@@ -1,4 +1,4 @@
-# 🏥 Clínica Hospitalar
+#  Clínica Hospitalar
 
 ### Website institucional com sistema de agendamento de consultas
 
